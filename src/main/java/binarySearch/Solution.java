@@ -8,12 +8,19 @@ package binarySearch;
 public class Solution {
 
     public int solve(int[] a) {
-        for (int i = 0; i < a.length; i++) {
-            if (a[i]!=i) {
-                return i;
+        int start = 0;
+        int end = a.length - 1;
+        while (true) {
+            if (end - start == 1) {
+                return  end;
+            }
+            int temp = (start + end) / 2;
+            if (a[temp] > temp) {
+                end = temp;
+            } else {
+                start = temp;
             }
         }
-        return -1;
     }
 
     /**
@@ -23,8 +30,14 @@ public class Solution {
         int result = -1;
         int start = 0;
         int end = arr.length - 1;
-        while (start <= end) {
-            int mid = start + (end - start) / 2;//防止溢位
+        while (start < end) {
+            if (end - start == 1) {
+
+            }
+            if (start == end) {
+
+            }
+            int mid = start + (end - start) / 2;//防止溢位 (start + end)/2
             if (arr[mid] > hkey)
                 end = mid - 1;
             else if (arr[mid] < hkey)
