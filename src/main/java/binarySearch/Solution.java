@@ -6,7 +6,6 @@ package binarySearch;
  * 缺失 6
  */
 public class Solution {
-
     public int solve(int[] a) {
         int start = 0;
         int end = a.length - 1;
@@ -21,37 +20,5 @@ public class Solution {
                 start = temp;
             }
         }
-    }
-
-    /**
-     * 经典 二分查找
-     */
-    public int binarySearch(int[] arr, int hkey) {
-        int result = -1;
-        int start = 0;
-        int end = arr.length - 1;
-        while (start < end) {
-            if (end - start == 1) {
-
-            }
-            if (start == end) {
-
-            }
-            int mid = start + (end - start) / 2;//防止溢位 (start + end)/2
-            if (arr[mid] > hkey)
-                end = mid - 1;
-            else if (arr[mid] < hkey)
-                start = mid + 1;
-            else {
-                result = mid;
-                break;
-            }
-        }
-        return result;
-    }
-
-    public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4, 6, 8, 9};
-        System.out.println(new Solution().binarySearch(arr, 7));
     }
 }
