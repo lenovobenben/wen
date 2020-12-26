@@ -7,6 +7,19 @@ package linkedList;
  */
 public class Solution {
     public ListNode ReverseList(ListNode head) {
-        return null;
+        if (head == null) {
+            return null;
+        }
+
+        ListNode nowNode = head;
+        ListNode preNode = null;// 正向
+        while (nowNode!=null) {
+            ListNode nextNode = nowNode.next;// 暂存
+            nowNode.next = preNode;
+            // 为下一次循环 做准备
+            preNode = nowNode;
+            nowNode = nextNode;
+        }
+        return preNode;
     }
 }
