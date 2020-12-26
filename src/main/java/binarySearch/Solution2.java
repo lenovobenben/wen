@@ -51,7 +51,7 @@ public class Solution2 {
                     } else {// 比小数组的某元素大的值，可能在右边，也可能在大数组里
                         if (n > lastValue) {// 在大数组里
                             endIndex = temp;
-                        } else {// 在小数组里，左边
+                        } else {// 在小数组里，右边
                             startIndex = temp;
                         }
                     }
