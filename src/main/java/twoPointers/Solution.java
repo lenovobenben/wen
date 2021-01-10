@@ -7,6 +7,19 @@ import linkedList.ListNode;
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        return false;
+        // 初始化两个指针
+        ListNode fast = head;
+        ListNode slow = head;
+        while (true) {
+            if (fast!=null && fast.next!=null && slow!=null) {
+                fast = fast.next.next;// 2个
+                slow = slow.next;
+                if (fast==slow) {
+                    return true;
+                }
+            } else {// 到末尾，无环
+                return false;
+            }
+        }
     }
 }
