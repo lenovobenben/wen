@@ -12,4 +12,20 @@ public class Solution2 {
         }
         return count;
     }
+
+    public int NumberOf1_(int n) {
+        int num = 0;
+        while (true) {
+            if (n == 0) {
+                return num;
+            } else if (n == 1) {
+                return num + 1;
+            } else {
+                if ((n & 1) == 1) {
+                    num++;
+                }
+                n = n >>> 1;
+            }
+        }
+    }
 }
