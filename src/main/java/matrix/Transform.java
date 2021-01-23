@@ -10,10 +10,6 @@ package matrix;
  */
 public class Transform {
 
-
-    /**
-     * 首先上下翻转，再按照主对角线翻转
-     */
     public int[][] transformImage(int[][] mat, int n) {
         return null;
     }
