@@ -11,7 +11,26 @@ package matrix;
 public class Transform {
 
     public int[][] transformImage(int[][] mat, int n) {
-        return null;
+
+        // 上下翻转
+        for (int i = 0; i < n/2; i++) {
+            for (int j = 0; j < n; j++) {
+                int tmp = mat[i][j];
+                mat[i][j] = mat[n-1-i][j];
+                mat[n-1-i][j] = tmp;
+            }
+        }
+
+        // 主对角线翻转
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                int tmp = mat[i][j];
+                mat[i][j] = mat[j][i];
+                mat[j][i] = tmp;
+            }
+        }
+
+        return mat;
     }
 
 }
