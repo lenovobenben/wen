@@ -42,7 +42,7 @@ public class Solution {
             int lenTemp = 0;// 每条斜线上的最大长度
             int startIter = 0;// 每条斜线的临时开始位置
             int lenIter = 0;// 每条斜线的临时长度
-            for (int j = 0; j < str2.length(); j++) {
+            for (int j = 0; j < str2.length(); j++,iTemp++) {
                 if (iTemp >= str1.length()) {
                     break;
                 }
@@ -56,8 +56,6 @@ public class Solution {
                     startIter = iTemp + 1;// 当前的不相同，只能期待下一个是相同的
                     lenIter = 0;
                 }
-
-                iTemp++;
             }
 
             if (lenTemp > len) {// 重置 全局最大值
