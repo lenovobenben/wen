@@ -6,6 +6,10 @@ package str;
  */
 public class ReverseEqual {
     public boolean checkReverseEqual(String s1, String s2) {
-        return false;
+        if (s1.length()!=s2.length()) {
+            return false;
+        }
+        String s0 = s1 + s1;
+        return s0.contains(s2);// KMP算法？
     }
 }
