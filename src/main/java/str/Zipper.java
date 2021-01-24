@@ -6,7 +6,29 @@ package str;
  */
 public class Zipper {
     public String zipString(String str) {
+        StringBuilder stringBuilder = new StringBuilder();
+        char lastChar = 0;
+        int lastCharNum = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (i==0) {
+                lastChar = str.charAt(0);
+                lastCharNum = 1;
+                continue;
+            }
 
-        return null;
+            char cur = str.charAt(i);
+            if (lastChar == cur) {
+                lastCharNum++;
+            } else {
+                stringBuilder.append(lastChar).append(lastCharNum);// 写上一个
+                lastChar = cur;
+                lastCharNum = 1;
+            }
+
+            if (i==str.length()-1) {
+                stringBuilder.append(lastChar).append(lastCharNum);// 当前的
+            }
+        }
+        return stringBuilder.length() > str.length()?str:stringBuilder.toString();
     }
 }
