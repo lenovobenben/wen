@@ -5,7 +5,8 @@ package str;
  * 比如，字符串“aabbcccccaaa”经压缩会变成“a2b2c5a3”，若压缩后的字符串没有变短，则返回原先的字符串。注意保证串内字符均由大小写英文字母组成。
  */
 public class Zipper {
-    public String zip(String str) {
+    public String zipString(String str) {
+
         return null;
     }
 }
