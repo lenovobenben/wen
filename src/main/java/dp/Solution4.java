@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class Solution4 {
 
     public int minMoney(int[] arr, int aim) {
-        Arrays.sort(arr);// 很有必要排序
+        //Arrays.sort(arr);// 很有必要排序
         int[] dp = new int[aim];
         // 初始化 只需要一个硬币就能拼凑 aim 的情况
         for (int i = 0; i < arr.length; i++) {
@@ -18,24 +18,21 @@ public class Solution4 {
 
         for (int i = 0; i < aim; i++) {
             if (dp[i] == 0) {// 需要计算
-                dp[i] = -1;// 默认最小值为 -1 （不可拼凑）
+                dp[i] = Integer.MAX_VALUE;// 默认最大
                 for (int j = 0; j < arr.length; j++) {
                     if (i - arr[j] < 0) {// 比如：5的硬币永远拼凑不出4！后续大于5的硬币，更拼凑不出4。因此 break
                         break;
                     }
-                    if (dp[i - arr[j]] == -1) {// 无解，则跳过当前 arr[j]
+                    if (dp[i - arr[j]] == Integer.MAX_VALUE) {// 无解，则跳过当前 arr[j]
                         continue;
                     }
-                    if (dp[i] == -1) {// 需要初始化
-                        dp[i] = dp[i - arr[j]] + 1;// 最近的一个 dp 加一个币
-                    } else {// 和上一个保存的值比较。迭代取得最小值
-                        dp[i] = Math.min(dp[i], dp[i - arr[j]] + 1);
-                    }
+
+                    dp[i] = Math.min(dp[i], dp[i - arr[j]] + 1);
                 }
             }
         }
 
-        return dp[aim - 1];
+        return dp[aim - 1] == Integer.MAX_VALUE ? -1 : dp[aim - 1];
     }
 
 }
