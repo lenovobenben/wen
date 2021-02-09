@@ -9,18 +9,36 @@ package dp;
  */
 public class Solution3 {
     public int countWays(int n) {
-        int[] coin = new int[]{1, 5, 10, 25};// 从小到大排序
+        int[] coin = new int[]{1, 5, 10, 25};
         int[] dp = new int[n + 1];
         dp[0] = 1;
-        for (int i = 0; i < coin.length; i++) {// 遍历 1 2 5。第一次是每个数只有1组成，第二次是 1+2 组成，第三次是 1+2+5 组成
+        for (int i = 0; i < coin.length; i++) {
             for (int j = coin[i]; j <= n; j++) {
-                dp[j] = (dp[j] + dp[j - coin[i]]) % 1000000007;// dp[j]是累加的   dp[j] + dp[j-1]
+                dp[j] = (dp[j] + dp[j - coin[i]]) % 1000000007;
             }
         }
         return dp[n];
     }
 
-    public static void main(String[] args) {
-        System.out.println(new Solution3().countWays(10));
+
+    /**
+     * 简化版，方便调试
+     */
+    public int countWays2(int n) {
+        int[] coin = new int[]{1, 2, 5};
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+        for (int i = 0; i < coin.length; i++) {// 遍历 1 2 5。第一次是每个数只有1组成，第二次是 1+2 组成，第三次是 1+2+5 组成
+
+            // 当 i=0，dp[j] = dp[j-1] = dp[0] = 1
+            // 当 i=1，dp[j] = dp[j] + dp[j-2] = 1 + dp[j-2]
+            // 当 i=2，dp[j] = dp[j] + dp[j-5]
+            // 注意，dp[j]是累加的
+            for (int j = coin[i]; j <= n; j++) {
+                dp[j] = dp[j] + dp[j-coin[i]];
+            }
+        }
+        return dp[n];
     }
+
 }
