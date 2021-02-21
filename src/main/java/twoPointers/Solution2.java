@@ -7,6 +7,9 @@ import java.util.HashMap;
  */
 public class Solution2 {
     public int maxLength(int[] arr) {
+        if (arr.length == 0) {
+            return 0;
+        }
         // 只新增/修改，不删除
         HashMap<Integer, Integer> map = new HashMap<>();// key 值,value 下标
         int start = 0;
