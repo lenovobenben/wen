@@ -6,6 +6,9 @@ package str;
  */
 public class Zipper {
     public String zipString(String str) {
+        if (str.length()<=1) {
+            return str;
+        }
         StringBuilder stringBuilder = new StringBuilder();
         char lastChar = 0;
         int lastCharNum = 0;
@@ -29,6 +32,6 @@ public class Zipper {
                 stringBuilder.append(lastChar).append(lastCharNum);// 当前的
             }
         }
-        return stringBuilder.length() > str.length()?str:stringBuilder.toString();
+        return stringBuilder.length() >= str.length()?str:stringBuilder.toString();
     }
 }
