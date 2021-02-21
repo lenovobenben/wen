@@ -9,10 +9,21 @@ import java.util.Arrays;
 public class Solution4 {
 
     public int minMoney(int[] arr, int aim) {
-        //Arrays.sort(arr);// 很有必要排序
+        if (aim == 0) {
+            return 0;
+        }
+        if (arr.length == 0) {
+            return -1;
+        }
+
+        Arrays.sort(arr);// 很有必要排序
+
         int[] dp = new int[aim];
         // 初始化 只需要一个硬币就能拼凑 aim 的情况
         for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > aim) {
+                break;
+            }
             dp[arr[i] - 1] = 1;
         }
 
