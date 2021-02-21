@@ -7,6 +7,16 @@ package binarySearch;
  */
 public class Solution {
     public int solve(int[] a) {
+        // 特殊处理 最后一位
+        if (a[a.length-1]==a.length-1) {
+            return a.length;
+        }
+
+        // 特殊处理 第一位
+        if (a[0]!=0) {
+            return 0;
+        }
+
         int start = 0;
         int end = a.length - 1;
         while (true) {
