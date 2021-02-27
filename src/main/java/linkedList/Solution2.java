@@ -1,6 +1,8 @@
 package linkedList;
 
 /**
+ * 19. 删除链表的倒数第 N 个结点
+ *
  * 给定一个链表，删除链表的倒数第n个节点并返回链表的头指针
  */
 public class Solution2 {

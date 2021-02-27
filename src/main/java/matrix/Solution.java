@@ -1,6 +1,10 @@
 package matrix;
 
 /**
+ * 718. 最长重复子数组
+ *
+ * （略不同）
+ *
  * 给定两个字符串str1和str2,输出两个字符串的最长公共子串，如果最长公共子串为空，输出-1。
  */
 public class Solution {
