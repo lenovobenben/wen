@@ -14,7 +14,7 @@ public class Solution {
     // 小堆 存放大于中位数的元素
     private PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
-    // 大堆 存放小于中位数的元素
+    // 大堆 存放小于中位数的元素 (奇数时包含中位数)
     private PriorityQueue<Integer> maxHeap = new PriorityQueue<>((o1, o2) -> o2 - o1);
 
     /** initialize your data structure here. */
@@ -32,11 +32,9 @@ public class Solution {
         }
 
         if (maxHeap.size() < minHeap.size()) {
-            maxHeap.offer(minHeap.peek());
-            minHeap.poll();
+            maxHeap.offer(minHeap.poll());
         } else if (maxHeap.size() - minHeap.size() >= 2) {
-            minHeap.offer(maxHeap.peek());
-            maxHeap.poll();
+            minHeap.offer(maxHeap.poll());
         }
     }
 
