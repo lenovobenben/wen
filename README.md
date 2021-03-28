@@ -8,7 +8,7 @@
 | [【算法太难了】【4】旋转数组-二分](https://www.bilibili.com/video/BV1h54y1t7vv/) | 33. 搜索旋转排序数组                   |
 | [【算法太难了】【5】反转链表-链表](https://www.bilibili.com/video/BV1yK4y1V7Yx/) | 剑指 Offer 24. 反转链表                |
 | [【算法太难了】【6】删除链表的倒数第N个节点-链表&双指针](https://www.bilibili.com/video/BV1Ez4y1r7yD/) | 19. 删除链表的倒数第 N 个结点          |
-| [【算法太难了】【7】二叉搜索树转双向链表-二叉树&递归](https://www.bilibili.com/video/BV11f4y1e7sf/) | 剑指 Offer 36. 二叉搜索树与双向链表    |
+| [【算法太难了】【7】二叉搜索树转双向链表-二叉树&递归](https://www.bilibili.com/video/BV11f4y1e7sf/) | 剑指 Offer 36. 二叉搜索树与双向链表（略不同）    |
 | [【算法太难了】【8】平衡树检查-二叉树](https://www.bilibili.com/video/BV19V411b7Km/) | 110. 平衡二叉树                        |
 | [【算法太难了】【9】链表是否有环-双指针](https://www.bilibili.com/video/BV1Ky4y1v7xD/) | 141. 环形链表                          |
 | [【算法太难了】【10】最长无重复子串-双指针&哈希](https://www.bilibili.com/video/BV1uA411H7nU/) | 3. 无重复字符的最长子串                |
