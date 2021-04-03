@@ -16,15 +16,23 @@ public class Solution2 {
         int p1 = m - 1;
         int p2 = n - 1;
         int re = m + n - 1;// 逆序下标
-        while (re >= 0 && p2 >= 0) {
-            if (p1 >= 0 && nums1[p1] > nums2[p2]) {
+        while (re >= 0 && p2 >= 0 && p1 >= 0) {
+            if (nums1[p1] > nums2[p2]) {
                 nums1[re] = nums1[p1];
                 p1--;
-            } else {// 注意 p1 < 0 的情况！
+            } else {
                 nums1[re] = nums2[p2];
                 p2--;
             }
             re--;
+        }
+
+        if (p1 < 0) {
+            while (re >= 0) {
+                nums1[re] = nums2[p2];
+                p2--;
+                re--;
+            }
         }
     }
 
