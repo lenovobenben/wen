@@ -38,10 +38,10 @@
 | [【算法太难了】【34】最大黑方阵-二维数组&动态规划](https://www.bilibili.com/video/BV1TK411w7wN/) | 面试题 17.23. 最大黑方阵               |
 | [【算法太难了】【35】二维数组中的查找-二维数组&双指针](https://www.bilibili.com/video/BV1DA411N7Md/) | 剑指 Offer 04. 二维数组中的查找        |
 | [【算法太难了】【36】矩阵中的路径-二维数组&DFS&回溯](https://www.bilibili.com/video/BV1Dh411S7v5/) | 剑指 Offer 12. 矩阵中的路径            |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
+| [【算法太难了】【37】最大数-排序](https://www.bilibili.com/video/BV1xp4y187pJ/) | 179. 最大数 |
+| [【算法太难了】【38】合并两个有序数组-排序&双指针](https://www.bilibili.com/video/BV1264y1U7nR/) | 88. 合并两个有序数组 |
+| [【算法太难了】【39】合并K个升序链表-排序&链表&堆](https://www.bilibili.com/video/BV1QK4y1N7ww/) | 23. 合并K个升序链表 |
+| [【算法太难了】【40】排序链表-归并排序](https://www.bilibili.com/video/BV1Ti4y1N7hU/) | 148. 排序链表 |
 |                                                              |                                        |
 |                                                              |                                        |
 |                                                              |                                        |
