@@ -11,6 +11,5 @@ public class Solution4 {
         // 把下一个节点的值赋值到该节点上，同时跳过该节点即可
         pNode.val = pNode.next.val;
         pNode.next = pNode.next.next;
-        return;
     }
 }
