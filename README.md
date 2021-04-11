@@ -42,10 +42,10 @@
 | [【算法太难了】【38】合并两个有序数组-排序&双指针](https://www.bilibili.com/video/BV1264y1U7nR/) | 88. 合并两个有序数组 |
 | [【算法太难了】【39】合并K个升序链表-排序&链表&堆](https://www.bilibili.com/video/BV1QK4y1N7ww/) | 23. 合并K个升序链表 |
 | [【算法太难了】【40】排序链表-归并排序](https://www.bilibili.com/video/BV1Ti4y1N7hU/) | 148. 排序链表 |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
+| [【算法太难了】【41】链表的第一个公共节点-链表](https://www.bilibili.com/video/BV1oZ4y1c73R/) | 剑指 Offer 52. 两个链表的第一个公共节点 |
+| [【算法太难了】【42】删除链表中的节点-链表](https://www.bilibili.com/video/BV1Y64y1v7e7/) | 237. 删除链表中的节点 |
+| [【算法太难了】【43】旋转数组-数组](https://www.bilibili.com/video/BV1X64y1S7a4/) | 189. 旋转数组 |
+| [【算法太难了】【44】接雨水-数组&动态规划](https://www.bilibili.com/video/BV1Vv41177GE/) | 42. 接雨水 |
 |                                                              |                                        |
 |                                                              |                                        |
 |                                                              |                                        |
