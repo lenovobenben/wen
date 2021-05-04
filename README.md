@@ -5,7 +5,7 @@
 | [【算法太难了】【1】斐波那契数列-动态规划入门（入坑？）](https://www.bilibili.com/video/BV14X4y1u7TV/) | 509. 斐波那契数                        |
 | [【算法太难了】【2】连续子数组的最大和-动态规划](https://www.bilibili.com/video/BV1ka4y1H7ZQ/) | 剑指 Offer 42. 连续子数组的最大和      |
 | [【算法太难了】【3】缺失的数字-二分](https://www.bilibili.com/video/BV1Fy4y1D7mA/) | 剑指 Offer 53 - II. 0～n-1中缺失的数字（视频中代码有BUG） |
-| [【算法太难了】【4】旋转数组-二分](https://www.bilibili.com/video/BV1h54y1t7vv/) | 33. 搜索旋转排序数组                   |
+| [【算法太难了】【4】搜索旋转数组-二分](https://www.bilibili.com/video/BV1h54y1t7vv/) | 33. 搜索旋转排序数组                   |
 | [【算法太难了】【5】反转链表-链表](https://www.bilibili.com/video/BV1yK4y1V7Yx/) | 剑指 Offer 24. 反转链表                |
 | [【算法太难了】【6】删除链表的倒数第N个节点-链表&双指针](https://www.bilibili.com/video/BV1Ez4y1r7yD/) | 19. 删除链表的倒数第 N 个结点          |
 | [【算法太难了】【7】二叉搜索树转双向链表-二叉树&递归](https://www.bilibili.com/video/BV11f4y1e7sf/) | 剑指 Offer 36. 二叉搜索树与双向链表（略不同）    |
@@ -22,8 +22,8 @@
 | [【算法太难了】【18】像素翻转-二维数组](https://www.bilibili.com/video/BV1Ph41117uc/) | 面试题 01.07. 旋转矩阵                 |
 | [【算法太难了】【19】基本字符串压缩-字符串](https://www.bilibili.com/video/BV1Rf4y1k7y9/) | 面试题 01.06. 字符串压缩（视频中代码有BUG）               |
 | [【算法太难了】【20】翻转子串-字符串](https://www.bilibili.com/video/BV1p54y1p7Cu/) | 796. 旋转字符串                        |
-| [【算法太难了】【21】找零钱1-动态规划](https://www.bilibili.com/video/BV1Vv4y1Z7Sr/) | 518. 零钱兑换 II                       |
-| [【算法太难了】【22】找零钱2-动态规划](https://www.bilibili.com/video/BV1UX4y1N766/) | 322. 零钱兑换（视频中代码有BUG）                          |
+| [【算法太难了】【21】零钱兑换1-动态规划](https://www.bilibili.com/video/BV1Vv4y1Z7Sr/) | 518. 零钱兑换 II                       |
+| [【算法太难了】【22】零钱兑换2-动态规划](https://www.bilibili.com/video/BV1UX4y1N766/) | 322. 零钱兑换（视频中代码有BUG）                          |
 | [【算法太难了】【23】最长递增子序列-动态规划](https://www.bilibili.com/video/BV19b4y1R7K3/) | 300. 最长递增子序列                    |
 | [【算法太难了】【24】走方格-动态规划](https://www.bilibili.com/video/BV1Py4y1a7HP/) | 62. 不同路径                           |
 | [【算法太难了】【25】数据流中的中位数-堆](https://www.bilibili.com/video/BV1nv411h72m/) | 剑指 Offer 41. 数据流中的中位数        |
