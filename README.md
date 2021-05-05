@@ -46,12 +46,12 @@
 | [【算法太难了】【42】删除链表中的节点-链表](https://www.bilibili.com/video/BV1Y64y1v7e7/) | 237. 删除链表中的节点 |
 | [【算法太难了】【43】旋转数组-数组](https://www.bilibili.com/video/BV1X64y1S7a4/) | 189. 旋转数组 |
 | [【算法太难了】【44】接雨水-数组&动态规划](https://www.bilibili.com/video/BV1Vv41177GE/) | 42. 接雨水 |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
+| [【算法太难了】【45】多数元素-数组](https://www.bilibili.com/video/BV1tU4y1b7pX/) | 169. 多数元素 |
+| [【算法太难了】【46】移动零-数组](https://www.bilibili.com/video/BV1Xv41177nN/) | 283. 移动零 |
+| [【算法太难了】【47】打家劫舍-动态规划](https://www.bilibili.com/video/BV1CN411f7Li/) | 198. 打家劫舍 |
+| [【算法太难了】【48】买卖股票1-数组](https://www.bilibili.com/video/BV1QN411f794/) | 121. 买卖股票的最佳时机 |
+| [【算法太难了】【49】买卖股票2-数组](https://www.bilibili.com/video/BV19q4y1J7ak/) | 122. 买卖股票的最佳时机 II |
+| [【算法太难了】【50】Java计算圆周率到10000位-大数运算](https://www.bilibili.com/video/BV1vN411f7W1/) | 无 |
 |                                                              |                                        |
 |                                                              |                                        |
 |                                                              |                                        |
