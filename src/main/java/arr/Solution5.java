@@ -21,8 +21,11 @@ public class Solution5 {
         int maxProfit = 0;
         int min = prices[0];
         for (int i = 1; i < prices.length; i++) {
-            maxProfit = Math.max(maxProfit, prices[i] - min);
-            min = Math.min(min, prices[i]);
+            if (prices[i] > min) {
+                maxProfit = Math.max(maxProfit, prices[i] - min);
+            } else {
+                min = Math.min(min, prices[i]);
+            }
         }
         return maxProfit;
     }
