@@ -25,6 +25,8 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+        long t1 = System.currentTimeMillis();
         System.out.println(new Solution2().pi(10000));
+        System.out.println(System.currentTimeMillis() - t1);
     }
 }
