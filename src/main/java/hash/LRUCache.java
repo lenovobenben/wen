@@ -7,8 +7,8 @@ import java.util.LinkedHashMap;
  *
  */
 public class LRUCache {
-    int cap;
-    LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>(1024, 0.75f, true);
+    private int cap;
+    private LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>(1024, 0.75f, true);
 
     public LRUCache(int capacity) {
         this.cap = capacity;
