@@ -18,7 +18,7 @@ public class Solution4 {
         int end = 0;
         int flag = 1;// 上次增加 end 为 1。上次增加 start 为 -1
 
-        while (end <= nums.length) {
+        while (end < nums.length) {
 
             if (nums[end] >= target) return 1;// 特殊处理，直接返回1
 
