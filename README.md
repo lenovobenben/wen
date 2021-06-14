@@ -52,11 +52,11 @@
 | [【算法太难了】【48】买卖股票1-数组](https://www.bilibili.com/video/BV1QN411f794/) | 121. 买卖股票的最佳时机 |
 | [【算法太难了】【49】买卖股票2-数组](https://www.bilibili.com/video/BV19q4y1J7ak/) | 122. 买卖股票的最佳时机 II |
 | [【算法太难了】【50】Java计算圆周率到10000位-大数运算](https://www.bilibili.com/video/BV1vN411f7W1/) | 无编号1 |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
+| [【算法太难了】【51】实现LRU缓存 不讲武德-LinkedHashMap](https://www.bilibili.com/video/BV1Dg411378i/) | 面试题 16.25. LRU 缓存 |
+| [【算法太难了】【52】回文排列-哈希](https://www.bilibili.com/video/BV1aV41147QY/) | 面试题 01.04. 回文排列 |
+| [【算法太难了】【53】数组中重复的数字-原地哈希](https://www.bilibili.com/video/BV1BV41147Ek/) | 剑指 Offer 03. 数组中重复的数字 |
+| [【算法太难了】【54】盛最多水的容器-双指针](https://www.bilibili.com/video/BV14w411f7v3/) | 11. 盛最多水的容器 |
+| [【算法太难了】【55】长度最小的子数组-双指针&滑动窗口](https://www.bilibili.com/video/BV1X5411K7ja/) | 209. 长度最小的子数组 |
 |                                                              |                                        |
 |                                                              |                                        |
 |                                                              |                                        |
