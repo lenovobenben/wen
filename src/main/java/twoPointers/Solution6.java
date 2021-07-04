@@ -8,18 +8,20 @@ public class Solution6 {
         int start = 0;
         int end = nums.length - 1;
         while (start < end) {
-            if ((nums[start] & 1) == 1) {// 奇数
+            if ((nums[start] & 1) == 1) {// start是奇数
                 start++;
-            } else {// 偶数，等待互换
-                if ((nums[end] & 1) == 1) {// 奇数
-                    int temp = nums[start];
-                    nums[start] = nums[end];
-                    nums[end] = temp;
-                    start++;
-                    end--;
-                } else {// 也是偶数
-                    end--;
-                }
+                continue;
+            }
+            if ((nums[end] & 1) == 0) {// end是偶数
+                end--;
+                continue;
+            }
+            if ((nums[start] & 1) == 0 && (nums[end] & 1) == 1) {// start偶数 同时 end奇数。互换
+                int temp = nums[start];
+                nums[start] = nums[end];
+                nums[end] = temp;
+                start++;
+                end--;
             }
         }
         return nums;
