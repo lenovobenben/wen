@@ -57,8 +57,9 @@
 | [【算法太难了】【53】数组中重复的数字-原地哈希](https://www.bilibili.com/video/BV1BV41147Ek/) | 剑指 Offer 03. 数组中重复的数字 |
 | [【算法太难了】【54】盛最多水的容器-双指针](https://www.bilibili.com/video/BV14w411f7v3/) | 11. 盛最多水的容器 |
 | [【算法太难了】【55】长度最小的子数组-双指针&滑动窗口](https://www.bilibili.com/video/BV1X5411K7ja/) | 209. 长度最小的子数组 |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
-|                                                              |                                        |
+| [【算法太难了】【56】和为s的两个数字-双指针](https://www.bilibili.com/video/BV1TV411W7fx/) | 剑指 Offer 57. 和为s的两个数字 |
+| [【算法太难了】【57】调整数组顺序使奇数位于偶数前面-双指针](https://www.bilibili.com/video/BV1b64y1b7ia/) | 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面 |
+| [【算法太难了】【58】配对交换-位运算](https://www.bilibili.com/video/BV1cK4y1u7fy/) | 面试题 05.07. 配对交换 |
+| [【算法太难了】【59】扑克牌中的顺子-数学](https://www.bilibili.com/video/BV13U4y137dg/) | 剑指 Offer 61. 扑克牌中的顺子 |
+| [【算法太难了】【60】将有序数组转换为二叉搜索树-二叉树&二分&递归](https://www.bilibili.com/video/BV1Cv411J7Vn/) | 108. 将有序数组转换为二叉搜索树 |
 
