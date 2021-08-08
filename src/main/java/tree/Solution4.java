@@ -6,7 +6,11 @@ import java.util.HashMap;
  * 236. 二叉树的最近公共祖先
  */
 public class Solution4 {
-    public TreeNode lowestCommonAncestor_(TreeNode root, TreeNode p, TreeNode q) {
+
+    /**
+     * 递归方式
+     */
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {// 没找到
             return null;
         }
@@ -21,7 +25,7 @@ public class Solution4 {
             return left;
         }
 
-        // 在两边，当前 root 即为目标值（此时，left/right 分别为 p/q 的值，绝不可能出现其它值!）
+        // 在两边，当前 root 即为目标值
         return root;
     }
 
@@ -29,7 +33,7 @@ public class Solution4 {
     /**
      * 利用中序遍历
      */
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor_(TreeNode root, TreeNode p, TreeNode q) {
         HashMap<TreeNode, TreeNode> map = new HashMap<>();
         this.iter(root, map);
 
